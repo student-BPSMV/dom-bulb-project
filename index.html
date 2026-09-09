@@ -26,7 +26,7 @@
 </head>
 <body>
     <div class="container">
-        <img id="bulb" src="../All_Code/images/turnoffbulb.jpg" width="200px" height="300px"><br>
+        <img id="bulb" src="/images/turnoffbulb.jpg" width="200px" height="300px"><br>
         <button id="btn" onclick="toggle()">ON</button>
     </div>
 
@@ -37,14 +37,14 @@
 
             if(buttonDemo.innerText === "ON"){
                 buttonDemo.innerText = "OFF";
-                bulb.src = "../All_Code/images/turnonbulb.jpg";
+                bulb.src = "/images/turnonbulb.jpg";
                 bulb.style.width = "300px";
                 buttonDemo.style.backgroundColor = "red";
                 buttonDemo.style.borderColor = "red";
                 
             }else{
                 buttonDemo.innerText = "ON";
-                bulb.src = "../All_Code/images/turnoffbulb.jpg";
+                bulb.src = "/images/turnoffbulb.jpg";
                 bulb.style.width = "200px";
             }
         }
